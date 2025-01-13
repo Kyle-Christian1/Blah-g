@@ -1,0 +1,36 @@
+<%- include("header.ejs") %>
+<!DOCTYPE html>
+<html lang="en" style="background-color: #bcf2f6">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main-flexbox">
+      <h1>Blah-g</h1>
+      <h2><span>a blog for</span> you and your <span>complaints!</span></h2>
+      <div class="textarea-grid">
+        <div></div>
+        <form action="/submit" method="post">
+          <textarea
+            name="blog-text"
+            resize="none"
+            name="complaint-area"
+            class="blog-text-area"
+            rows="7"
+            columns="10"
+            autocapitalize="characters"
+          ></textarea>
+          <button id="complain-btn" type="submit">😠</button>
+        </form>
+      </div>
+      <h2><span>Past complaints 👇</span></h2>
+      <ul>
+        <% posts.forEach((post, index) => { %>
+        <li class="blog-post"><%= post %></li>
+        <% }); %>
+      </ul>
+    </div>
+  </body>
+</html>
+<%-include("footer.ejs")%>

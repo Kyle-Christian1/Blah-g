@@ -1,0 +1,97 @@
+h1{
+    padding-top:50px;
+    text-align: center;
+    font-family: "Barrio";
+    font-size: 4rem;
+    color:red;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+body{
+    margin: 0;
+}
+
+.blog-text-area{
+    width: 100%;
+    align-self: center;
+    border: 10px solid red;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.textarea-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 10% auto;
+    grid-template-rows: auto;
+}
+
+#header-flexbox{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #08C2FF;
+    width: 100%;
+    justify-content: right;
+}
+
+#complain-btn{
+    margin-left: 40px;
+    border-radius: 30px;
+    border: 10px solid #006BFF;
+    font-size: 3rem;
+}
+
+#footer{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #006BFF;
+    height: 50px;
+    justify-content: left;
+    align-items: center;
+}
+
+.blog-post{
+    align-self: center;
+    text-align: left;
+    font-family: "Barrio";
+    color:red;
+}
+
+form{
+    display:flex;
+}
+
+#copyright{
+    margin: 0px 30px;
+}
+
+span{
+    outline: 3px solid #FFF100;
+    background-color: #FFF100;
+    border-radius: 5px;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: #006BFF;
+    color:#08C2FF;
+    border-radius: 5px;
+}
+
+#main-flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
