@@ -15,6 +15,17 @@ body{
     margin: 0;
 }
 
+.nav-link{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+}
+
+.right{
+    margin-right:30px;
+}
+
 .blog-text-area{
     width: 100%;
     align-self: center;
@@ -85,8 +96,8 @@ span{
     align-items: center;
     height: 50px;
     width: 100px;
-    background-color: #006BFF;
-    color:#08C2FF;
+    background-color: #08C2FF;
+    color:white;;
     border-radius: 5px;
 }
 
